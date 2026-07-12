@@ -280,8 +280,8 @@
             "period": "09/2025 — Present · 10 months · France",
             "role": "Generative AI Engineer Apprentice",
             "bullets": [
-              "Developed a declarative, config-driven microservice for **workflow management and orchestration**, making it easy to build, manage, and execute complex AI workflows at scale.",
-              "Built an automated **workflow evaluation engine** leveraging **LLM-as-a-judge** to assess outputs against custom metrics, with a **dashboard** to analyse workflow behaviour across different scenarios."
+              "Developed a declarative, config-driven microservice for **workflow management and orchestration**, making it easy to manage and execute complex AI workflows at scale.",
+              "Built an automated **workflow evaluation engine** leveraging **LLM-as-a-judge** to assess outputs against custom metrics, with a **dashboard** to analyse workflow behaviour."
             ],
             "tags": [
               "Agentic Workflows",
@@ -291,7 +291,7 @@
               "System Architecture",
               "Python/FastAPI",
               "Amazon DynamoDB",
-              "Streamlit"
+              "Python/Streamlit"
             ]
           },
           {
@@ -300,8 +300,8 @@
             "period": "02/2024 — 06/2024 · 5 months · Tunisia",
             "role": "Natural Language Processing Intern",
             "bullets": [
-              "Implemented a system that automates email classification and information extraction from attachments, using **BERT** and **OCR** to optimise efficiency and processing time.",
-              "Developed a web application for **BERT Fine-Tuning**, email management, and real-time data analysis and visualisation, to enhance user interaction and performance monitoring."
+              "Implemented a system that automates email classification and information extraction from attachments, using fine-tuned **BERT** and **OCR** to improve accuracy and optimise processing.",
+              "Developed a web application for **BERT Fine-Tuning**, email management, and real-time data analysis and visualisation, enabling model management and performance monitoring."
             ],
             "tags": [
               "Hugging Face Transformers",
@@ -321,8 +321,8 @@
             "period": "06/2023 — 08/2023 · 3 months · Tunisia",
             "role": "Machine Learning Intern",
             "bullets": [
-              "Evaluated multiple **deep reinforcement learning** algorithms from **Stable Baselines 3** across various **Gymnasium** environments to assess agent performance and training efficiency.",
-              "Built a **2D grid game** in **Pygame** where a **Deep Q-Learning** agent learns to navigate a dynamic environment, applying the best-performing algorithm from the benchmarking phase."
+              "Evaluated multiple **reinforcement learning** algorithms from **Stable Baselines 3** across various **Gymnasium** environments to assess agent performance and training efficiency.",
+              "Built a **2D game** in **Pygame** where a **Deep Q-Learning** agent learns to navigate a dynamic environment, applying the best-performing algorithm from the benchmarking phase."
             ],
             "tags": [
               "Reinforcement Learning",
@@ -352,8 +352,8 @@
               "Re-Ranking",
               "LangChain",
               "Qwen3-VL",
-              "Qdrant",
-              "Streamlit"
+              "Milvus",
+              "Python/Streamlit"
             ]
           },
           {
@@ -757,8 +757,8 @@
             "period": "09/2025 — En cours · 10 mois · France",
             "role": "Apprenti Ingénieur IA Générative",
             "bullets": [
-              "Développement d'un microservice déclaratif et piloté par configuration pour la **gestion et l'orchestration de workflows**, facilitant la construction, la gestion et l'exécution de workflows IA complexes à grande échelle.",
-              "Création d'un **moteur d'évaluation de workflows** basé sur un **LLM-as-a-judge**, évaluant les sorties selon des métriques personnalisées, avec un **dashboard** d'analyse du comportement selon différents scénarios."
+              "Développement d'un microservice déclaratif et piloté par configuration pour la **gestion et l'orchestration de workflows**, facilitant la gestion et l'exécution de workflows IA complexes à grande échelle.",
+              "Création d'un **moteur d'évaluation de workflows** basé sur un **LLM-as-a-judge**, évaluant les sorties selon des métriques personnalisées, avec un **dashboard** d'analyse du comportement des workflows."
             ],
             "tags": [
               "Agentic Workflows",
@@ -768,7 +768,7 @@
               "System Architecture",
               "Python/FastAPI",
               "Amazon DynamoDB",
-              "Streamlit"
+              "Python/Streamlit"
             ]
           },
           {
@@ -777,8 +777,8 @@
             "period": "02/2024 — 06/2024 · 5 mois · Tunisie",
             "role": "Stagiaire en Traitement du Langage Naturel",
             "bullets": [
-              "Implémentation d'un système automatisant la classification des e-mails et l'extraction d'informations des pièces jointes, avec **BERT** et **OCR** pour optimiser l'efficacité et le temps de traitement.",
-              "Développement d'une application web pour le **Fine-Tuning BERT**, la gestion des e-mails, l'analyse et la visualisation des données en temps réel, pour améliorer l'interaction utilisateur et le suivi des performances."
+              "Implémentation d'un système automatisant la classification des e-mails et l'extraction d'informations des pièces jointes, avec **BERT** fine-tuné et **OCR** pour améliorer la précision et optimiser le traitement.",
+              "Développement d'une application web pour le **Fine-Tuning BERT**, la gestion des e-mails, l'analyse et la visualisation des données en temps réel, permettant la gestion du modèle et le suivi des performances."
             ],
             "tags": [
               "Hugging Face Transformers",
@@ -798,8 +798,8 @@
             "period": "06/2023 — 08/2023 · 3 mois · Tunisie",
             "role": "Stagiaire en Machine Learning",
             "bullets": [
-              "Évaluation de plusieurs algorithmes d'**apprentissage par renforcement profond** issus de **Stable Baselines 3** dans différents environnements **Gymnasium** pour évaluer les performances des agents et l'efficacité de l'entraînement.",
-              "Développement d'un **jeu de grille 2D** en **Pygame** où un agent **Deep Q-Learning** apprend à naviguer dans un environnement dynamique, en appliquant l'algorithme le plus performant issu de la phase de benchmarking."
+              "Évaluation de plusieurs algorithmes d'**apprentissage par renforcement** issus de **Stable Baselines 3** dans différents environnements **Gymnasium** pour évaluer les performances des agents et l'efficacité de l'entraînement.",
+              "Développement d'un **jeu 2D** en **Pygame** où un agent **Deep Q-Learning** apprend à naviguer dans un environnement dynamique, en appliquant l'algorithme le plus performant issu de la phase de benchmarking."
             ],
             "tags": [
               "Reinforcement Learning",
@@ -829,8 +829,8 @@
               "Re-Ranking",
               "LangChain",
               "Qwen3-VL",
-              "Qdrant",
-              "Streamlit"
+              "Milvus",
+              "Python/Streamlit"
             ]
           },
           {
