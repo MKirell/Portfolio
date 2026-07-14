@@ -1,8 +1,8 @@
 <template>
-  <section class="section section--dark" id="projects" aria-labelledby="projects-heading">
+  <section class="section" id="projects" aria-labelledby="projects-heading">
     <div class="container">
       <header class="section__header" v-reveal>
-        <span class="section-num">04</span>
+        <span class="section-num">03</span>
         <span class="section-name">{{ t.nav.projects }}</span>
       </header>
       <h2 id="projects-heading" class="section-h2" v-reveal>{{ t.projects.heading }}</h2>
@@ -11,7 +11,7 @@
           <div class="project-card__header">
             <div class="project-card__left">
               <time class="project-card__period">{{ project.period }}{{ project.duration ? ` (${project.duration})` : ''
-              }}</time>
+                }}</time>
             </div>
             <span class="project-badge">{{ project.badge }}</span>
           </div>

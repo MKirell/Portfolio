@@ -98,7 +98,7 @@
                 <div class="award-card__title-row">
                   <p class="award-card__title">{{ award.title }}</p>
                   <button v-if="award.images && award.images.length" type="button" class="award-link icon-hint"
-                    title="View photos" @click="openLightbox(award.images)">
+                    title="View photos" @click="openLightbox(award.images, award.title)">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round" width="15" height="15" aria-hidden="true">
                       <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -132,7 +132,8 @@
           @click="prevImage" aria-label="Previous image">
           <ChevronLeft :size="26" />
         </button>
-        <img class="lightbox__img" :src="imgUrl(lightbox.images[lightbox.index])" alt="" />
+        <img class="lightbox__img" :src="imgUrl(lightbox.images[lightbox.index])"
+          :alt="`${lightbox.title} — photo ${lightbox.index + 1} of ${lightbox.images.length}`" />
         <button v-if="lightbox.images.length > 1" class="lightbox__nav lightbox__nav--next" type="button"
           @click="nextImage" aria-label="Next image">
           <ChevronRight :size="26" />
@@ -157,10 +158,10 @@ const icons = { Zap, MessageSquare, Cloud, BarChart3, Trophy, Medal, Award }
 const { t } = useLanguage()
 const { degrees: degDocs, certs: certDocs, vols: volDocs, awards: awardDocs, volLinks } = portfolioData.docs
 
-const lightbox = ref({ open: false, images: [], index: 0 })
+const lightbox = ref({ open: false, images: [], index: 0, title: '' })
 
-function openLightbox(images) {
-  lightbox.value = { open: true, images, index: 0 }
+function openLightbox(images, title) {
+  lightbox.value = { open: true, images, index: 0, title }
 }
 function closeLightbox() {
   lightbox.value.open = false

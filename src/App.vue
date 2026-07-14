@@ -5,9 +5,9 @@
     <main id="main-content">
       <HeroSection />
       <AboutSection />
-      <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
+      <SkillsSection />
       <EducationSection />
       <ContactSection />
     </main>
@@ -16,7 +16,6 @@
 </template>
 
 <script setup>
-import { useJsonLd } from '@/composables/useJsonLd.js'
 import AppNav from '@/components/AppNav.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
@@ -26,6 +25,4 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 import EducationSection from '@/components/EducationSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 import AppFooter from '@/components/AppFooter.vue'
-
-useJsonLd()
 </script>

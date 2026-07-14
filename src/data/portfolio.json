@@ -7,6 +7,7 @@
     "phone": "+33758215856",
     "phoneDisplay": "+33 7 58 21 58 56",
     "linkedin": "https://www.linkedin.com/in/mohamed-khalil-zrelly/",
+    "github": "https://github.com/makiz-code",
     "url": "https://makiz-code.github.io/MKirell",
     "jobTitle": "Generative AI Engineer Apprentice",
     "worksFor": "Crédit Agricole",
@@ -34,6 +35,11 @@
       "degree-bachelor-2024.pdf",
       "degree-baccalaureate-2021.pdf"
     ],
+    "degreeLinks": [
+      "https://www.linkedin.com/school/université-sorbonne-paris-nord/",
+      "https://www.linkedin.com/school/university-of-tunis-el-manar/",
+      null
+    ],
     "certs": [
       "certificate-pyspark-udemy.pdf",
       "certificate-nlp-python.pdf",
@@ -54,7 +60,11 @@
       null
     ],
     "awards": [null, null, null, null],
-    "languages": ["certificate-english-toeic.pdf", "certificate-french-tcf.pdf", null]
+    "languages": [
+      "certificate-english-toeic.pdf",
+      "certificate-french-tcf.pdf",
+      null
+    ]
   },
   "metaLocales": [
     {
@@ -78,9 +88,9 @@
     "en": {
       "nav": {
         "about": "About",
-        "skills": "Skills",
         "experience": "Experience",
         "projects": "Projects",
+        "skills": "Skills",
         "education": "Education",
         "contact": "Contact"
       },
@@ -553,9 +563,9 @@
     "fr": {
       "nav": {
         "about": "À propos",
-        "skills": "Compétences",
         "experience": "Expérience",
         "projects": "Projets",
+        "skills": "Compétences",
         "education": "Formation",
         "contact": "Contact"
       },

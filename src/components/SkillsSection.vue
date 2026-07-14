@@ -2,7 +2,7 @@
   <section class="section section--dark" id="skills" aria-labelledby="skills-heading">
     <div class="container">
       <header class="section__header" v-reveal>
-        <span class="section-num">02</span>
+        <span class="section-num">04</span>
         <span class="section-name">{{ t.nav.skills }}</span>
       </header>
       <h2 id="skills-heading" class="section-h2" v-reveal>{{ t.skills.heading }}</h2>

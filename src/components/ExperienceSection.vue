@@ -1,8 +1,8 @@
 <template>
-  <section class="section" id="experience" aria-labelledby="experience-heading">
+  <section class="section section--dark" id="experience" aria-labelledby="experience-heading">
     <div class="container">
       <header class="section__header" v-reveal>
-        <span class="section-num">03</span>
+        <span class="section-num">02</span>
         <span class="section-name">{{ t.nav.experience }}</span>
       </header>
       <h2 id="experience-heading" class="section-h2" v-reveal>{{ t.experience.heading }}</h2>
