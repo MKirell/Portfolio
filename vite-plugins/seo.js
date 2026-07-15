@@ -357,6 +357,7 @@ function renderSeoShell(data) {
 function renderHeadTags(portfolio, jsonld) {
   const { person } = portfolio;
   const t = portfolio.locales.en;
+  const pageTitle = `${person.name} - MKirell`;
   const nameRole = `${person.name} — ${t.hero.cardRole}`;
   const description = stripMarkdown(t.hero.desc);
   const keywords = [
@@ -369,7 +370,7 @@ function renderHeadTags(portfolio, jsonld) {
   const attr = escapeAttr;
 
   return `
-<title>${escapeHtml(`${person.name} | MKirell`)}</title>
+<title>${escapeHtml(pageTitle)}</title>
 <meta name="description" content="${attr(description)}" />
 <meta name="keywords" content="${attr(keywords)}" />
 <meta name="author" content="${attr(person.name)}" />
@@ -383,7 +384,7 @@ function renderHeadTags(portfolio, jsonld) {
 <link rel="alternate" hreflang="x-default" href="${attr(person.url)}" />
 <meta property="og:type" content="profile" />
 <meta property="og:site_name" content="${attr(SITE_NAME)}" />
-<meta property="og:title" content="${attr(nameRole)}" />
+<meta property="og:title" content="${attr(pageTitle)}" />
 <meta property="og:description" content="${attr(description)}" />
 <meta property="og:url" content="${attr(person.url)}" />
 <meta property="og:image" content="${attr(ogImage)}" />
@@ -396,7 +397,7 @@ function renderHeadTags(portfolio, jsonld) {
 <meta property="profile:first_name" content="${attr(person.givenName)}" />
 <meta property="profile:last_name" content="${attr(person.familyName)}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="${attr(nameRole)}" />
+<meta name="twitter:title" content="${attr(pageTitle)}" />
 <meta name="twitter:description" content="${attr(description)}" />
 <meta name="twitter:image" content="${attr(ogImage)}" />
 <script type="application/ld+json">${jsonld}</script>
