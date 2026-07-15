@@ -2,7 +2,7 @@
 
 > Personal portfolio of **Mohamed Khalil Zrelly** — Generative AI Engineer Apprentice at Crédit Agricole.
 
-[![Live](https://img.shields.io/badge/Live-makiz--code.github.io/MKirell-7c3aed?style=flat-square)](https://makiz-code.github.io/MKirell)
+[![Live](https://img.shields.io/badge/Live-mkirell.github.io/Portfolio-7c3aed?style=flat-square)](https://mkirell.github.io/Portfolio/)
 [![Vue 3](https://img.shields.io/badge/Vue-3-42b883?style=flat-square&logo=vue.js)](https://vuejs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 
@@ -164,4 +164,4 @@ SELECT ?award WHERE {
 
 ## Author
 
-**Mohamed Khalil Zrelly** — [LinkedIn](https://www.linkedin.com/in/mohamed-khalil-zrelly/) · [makiz-code.github.io/MKirell](https://makiz-code.github.io/MKirell)
+**Mohamed Khalil Zrelly** — [LinkedIn](https://www.linkedin.com/in/mohamed-khalil-zrelly/) · [mkirell.github.io/Portfolio](https://mkirell.github.io/Portfolio/)
