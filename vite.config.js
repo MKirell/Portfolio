@@ -4,7 +4,7 @@ import { resolve } from 'path'
 import seoPrerender from './vite-plugins/seo.js'
 
 export default defineConfig({
-  base: '/Portfolio/',
+  base: '/',
   plugins: [vue(), seoPrerender()],
   resolve: {
     alias: { '@': resolve(__dirname, 'src') },
