@@ -49,9 +49,10 @@ npm run preview  # preview locally
 ## Project Structure
 
 ```text
-├── index.html                  # Entry point — hreflang, JSON-LD link, fonts
+├── index.html                  # Entry point — hreflang, fonts
+├── vite-plugins/
+│   └── seo.js                  # Builds JSON-LD, injects into index.html <head>
 ├── public/
-│   ├── jsonld.json             # Schema.org JSON-LD structured data
 │   ├── robots.txt
 │   └── sitemap.xml
 └── src/
@@ -63,7 +64,6 @@ npm run preview  # preview locally
     │   └── portfolio.json      # All UI content — person info + sections (en/fr/ar)
     ├── composables/
     │   ├── useLanguage.js      # Reactive language state
-    │   ├── useJsonLd.js        # Fetches jsonld.json, injects <script type="application/ld+json">
     │   └── useTypewriter.js
     ├── directives/
     │   └── reveal.js           # v-reveal scroll-reveal directive
@@ -88,7 +88,7 @@ npm run preview  # preview locally
 | File | Purpose |
 | --- | --- |
 | [`src/data/portfolio.json`](src/data/portfolio.json) | All UI text — nav, hero, about, skills, experience, projects, education, contact (en/fr/ar) |
-| [`public/jsonld.json`](public/jsonld.json) | Schema.org structured data — fetched at runtime and injected into `<head>` |
+| [`vite-plugins/seo.js`](vite-plugins/seo.js) | Schema.org JSON-LD — built at compile time, inlined into `<head>` |
 
 ---
 
@@ -96,11 +96,11 @@ npm run preview  # preview locally
 
 ### JSON-LD Visualization
 
-Paste [`public/jsonld.json`](public/jsonld.json) into **[json-ld.org/playground](https://json-ld.org/playground/)** to visualize and inspect the entity graph.  
+Copy the `<script type="application/ld+json">` block from page source (or `dist/index.html`) into **[json-ld.org/playground](https://json-ld.org/playground/)** to visualize and inspect the entity graph.  
 
 ### SPARQL
 
-Paste [`public/jsonld.json`](public/jsonld.json) into **[atomgraph.github.io/SPARQL-Playground](https://atomgraph.github.io/SPARQL-Playground/)** to query the structured data.  
+Paste the same block into **[atomgraph.github.io/SPARQL-Playground](https://atomgraph.github.io/SPARQL-Playground/)** to query the structured data.  
 
 #### Projects
 
